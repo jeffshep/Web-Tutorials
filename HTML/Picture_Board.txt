@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title>My Photo Page</title>
+	</head>
+	<body>
+	    <table>
+	        <thead>
+	            <th style= "color:green; font-family:Arial;font-size:20px">
+	            Picture Board
+	            </th>
+	        </thead>
+	        <tr>
+	            <td>
+	            <a href="http://www.rightmove.co.uk">
+	            <img src="http://www.freestockphotos.xyz/wp-content/uploads/Stock-photos.jpg"/>
+	            </a>
+	            </td>
+	            
+	            <td>
+	            <a href="http://www.nationaltrust.org.uk">
+	            <img src="http://img06.deviantart.net/25de/i/2012/134/3/1/037_by_koko_stock-d4zq28i.jpg"/>
+	            </a>
+	            </td>
+	            
+	            <td>
+	            <a href="http://www.bonfire.co.uk">
+	            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Stock_fire.JPG"/>
+	            </a>
+	            </td>
+	        </tr>
+	          
+	        <tr>
+	            <td>
+	            <a href="http://www.newyorkcity.com">
+	            <img src="http://pad2.whstatic.com/images/thumb/b/ba/Sell-Stock-Photography-Step-1.jpg/670px-Sell-Stock-Photography-Step-1.jpg"/>
+	            </a>
+	            </td>
+	            
+	            <td>
+	            <a href="http://www.walkingbritain.co.uk">
+	            <img src="http://orig05.deviantart.net/3c83/f/2013/131/b/8/stock_premade_background10_by_gwendolyn1_stock-d64wakh.jpg"/>
+	            </a>
+	            </td>
+	            
+	            <td>
+	            <a href="http://www.ftse.com">
+	            <img src="http://i.telegraph.co.uk/multimedia/archive/02407/stock-market-figur_2407759b.jpg"/>
+	            </a>
+	            </td>
+	        </tr>
+	        
+	        <tr>
+	            <td>
+	            <a href="http://www.metoffice.gov.uk">
+	            <img src="http://pre00.deviantart.net/07dd/th/pre/i/2006/225/7/7/clouds_014_by_rushpoint_stock.jpg"/>
+	            </a>
+	            </td>
+	            
+	            <td>
+	            <a href="http://www.roadtrip.com">
+	            <img src="http://orig12.deviantart.net/7285/f/2007/236/b/e/country_stock_2_by_killxthexscenexstock.jpg"/>
+	            </a>
+	            </td>
+	            
+	            <td>
+	            <a href="http://www.forests.co.uk">
+	            <img src="http://orig05.deviantart.net/2473/f/2012/099/5/5/forest_stock_38_by_sed_rah_stock-d4vixm1.jpg"/>
+	            </a>
+	            </td>
+	       
+	        </tr>
+	        
+	    </table>
+	</body>
+</html>
