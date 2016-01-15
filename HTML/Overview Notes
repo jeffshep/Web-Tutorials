@@ -1,0 +1,50 @@
+Codecademy HTML Tutorial:
+HTML gives a webpage structure (add paragraphs, headings, images, links)
+HyperText Markup Language
+
+First Line is always <!DOCTYPE html>
+Items inside '<>' known as tags.
+These normally come in pairs (opening and closing tag)
+
+ Example:
+ <!DOCTYPE html>
+<html>
+Jeff
+</html>
+
+There are two parts to an HTML file: head and body.
+The head contains info about the HTML file, like the title, the bit in the browser
+tab.
+
+Head Example:
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+"My Webpage"
+</title>
+</head>	
+</html>
+
+Body is where you put text, images and links
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			Headings & Paragraphs
+		</title>
+		
+	</head>
+	<body>
+	    <h1>1</h1>
+	    <p>Paragraph one</p>
+	    <h3>2</h3>	   
+	    <p>Paragraph two</p>
+	    <h5>3</h5>
+	    <p>Paragraph three</p>
+	    
+		
+		
+	</body>
+</html>
