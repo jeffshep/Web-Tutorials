@@ -1,0 +1,24 @@
+Classes are assigned to HTML elements with the word 'class=""'
+They are identified in CSS with a '.'
+
+IDs are for 1 element to receive a certain kind of styling.
+Assigned in HTML with 'id=""'
+Identified in CSS with '#'
+
+Pseudo-class selectors:
+a:link
+a:visited
+a:hover
+
+/*Add your CSS below!*/
+a:hover {
+    text-decoration:none;
+}
+
+a:first-child{
+    color:#cdbe70;
+}
+
+a:nth-child(3) {
+    color:#ffc125;
+}
