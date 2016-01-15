@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jeff Shepherd</title>
+	</head>
+	<body>
+	<img src="http://ecx.images-amazon.com/images/I/31zC%2ByHhd4L._SX300_.jpg" />
+	<h2 style="color:blue;font-family:Arial">ME</h2>
+	<p style="background-color:orange;font-size:22px">22 years old, Male, Living in Exeter</p>
+	<ul style="background-color:green;font-family:Arial">
+	    <li style="color:white"> <strong>Interests</strong>
+	        <ul>
+	            <li style="color:black"><em>Cycling</em></li>
+	            <li style="color:black">Surfing</li>
+	        </ul>
+	   </li>
+	   <li style="color:white"> <strong>Jobs</strong>
+	        <ol>
+	            <li style="color:black"><em>RNLI</em></li>
+	            <li style="color:black">Cadence</li>
+	            <li style="color:black">Velopost</li>
+	            <li style="color:black">Met Office</li>
+	       </ol>
+	   </li>
+	    <li style="color:white"> <strong>Favourite Places</strong>
+	        <ol>
+	            <li style="color:black"><em>The Lakes</em></li>
+	            <li style="color:black">Harln Bay</li>
+	            <li style="color:black">Purbecks</li>
+	            <li style="color:black">Mendips</li>
+	       </ol>
+	   </li>
+	    <li style="color:white"><strong>Where I've Lived</strong>
+	        <ul>
+	            <li style="color:black"><em>Bournemouth<em></li>
+	            <li style="color:black">Plymouth</li>
+	            <li style="color:black">Bristol</li>
+	            <li style="color:black">Exeter</li>
+	       </ul>
+	   </li>
+    </ul>
+	 
+	
+	</body>
+</html>
