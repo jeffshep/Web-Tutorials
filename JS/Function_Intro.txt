@@ -1,0 +1,14 @@
+var divideByThree = function (number) {
+    var val = number / 3;
+    console.log(val);
+};
+
+var greeting =  function (hi){
+  console.log(hi + "" + " and welcome");
+}
+greeting("Hello")
+
+var orangeCost = function(price){
+    console.log(price*5);
+}
+orangeCost(5)
