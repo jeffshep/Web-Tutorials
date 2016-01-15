@@ -1,0 +1,23 @@
+CSS stylesheet.css
+
+p {
+    font-size: 100px;
+}
+
+span {
+	font-family:cursive;
+}
+
+Write this in the head of HTML to link CSS script 
+<link type ="text/css" rel="stylesheet" href="stylesheet.css"/> 
+
+
+General CSS syntax
+
+selector {
+    property: value;
+}
+
+/*I'm a comment!*/
+
+Remember fallback options for font types
