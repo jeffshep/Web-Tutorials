@@ -1,0 +1,25 @@
+for (var i = 2 ; i < 13; i++){
+	console.log(i)
+}
+/* first part starting point, second part ends the loop at a certain point,
+third will increment (i+=3)*/
+
+Small complication: the position (or the index) of each bit of data is 
+counted starting from 0, not 1.
+
+var cities = ["London", "Amman", "Helsinki", "NYC", "Exeter"];
+
+for (var i = 0; i < cities.length; i++) {
+    console.log("I would like to visit " + cities[i]);
+}
+//Remember to set your condition outside the loop!
+var count = 0
+
+var loop = function(){
+	while(count < 3){
+		console.log("I'm looping!")
+		count++
+	}
+};
+
+loop();
