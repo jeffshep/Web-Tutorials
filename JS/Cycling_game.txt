@@ -1,0 +1,46 @@
+var user = prompt("You are racing in the Tour de France. Are you a climber a sprinter or do you like the breakaway?").toUpperCase();
+var stage = prompt("Enter some stage details","Mountain, flat or hilly").toUpperCase();
+var weather = prompt("Enter the weather conditions", "Dry or Wet").toUpperCase();
+
+switch(user){
+    case 'CLIMBER':
+        if (stage == "MOUNTAIN" && weather == "DRY"){
+            console.log("This stage could really suit you!");        
+        } else if (stage =="MOUNTAIN" && weather =="WET"){
+            console.log("Go for it! But take care on the descents!");
+        } else if (stage =="FLAT" && weather == "DRY" || weather =="WET"){
+            console.log("No big category climbs today, just watch out for the breakaway");
+        } else if (stage == "HILLY" && weather == "DRY" || weather =="WET"){
+            console.log("A few KOM points available today, try your best to get some!");
+        }  else {
+            console.log("Are you sure you spelt " + stage + " or " + weather +" right??");
+        }
+        break;
+    case 'SPRINTER':
+        if  (stage == "MOUNTAIN" && weather == "DRY" || weather == "WET"){
+            console.log("There are some serious gradients today, do your best to survive the stage! Good luck!");
+        } else if (stage == "FLAT" && weather == "DRY" || weather =="WET"){
+            console.log ("You could have a good chance on this stage!");
+        } else if (stage == "HILLY" && weather == "DRY" || weather == "WET"){
+            console.log("A few lumps on the route today, don't get left behind!");
+        } else {
+           console.log("Are you sure you spelt " + stage + " or " + weather +" right??");
+        }        
+        break;
+    case 'BREAKAWAY':
+        if (stage == "MOUNTAIN" || weather == "DRY"){
+            console.log ("There's an opportunity but the big boys are out to play today!");
+        } else if (stage == "MOUNTAIN" || weather == "WET"){
+            console.log("Stay with the break going up and you could win this one if you're brave descending!");
+        } else if (stage == "FLAT" && weather == "DRY" || weather == "WET"){
+            console.log("One for the sprinters today, take up your domestic duties. You'll have a chance to get in the break tomorrow");
+        } else if (stage == "HILLY" && weather == "DRY" || weather == "WET"){
+            console.log("If you've got the energy then get out front but it's not a great day for a breakaway to succeed");
+        } else {
+            console.log ("Are you sure you spelt " + stage + " or " + weather +" right??");
+        }
+        break;
+    default:
+        console.log("Could " + user + " be descibed as a 'sprinter', 'climber' or 'breakaway' rider?");
+        break;    
+};
