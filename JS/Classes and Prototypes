@@ -1,0 +1,49 @@
+OOP intro:
+Classes: a type or a category of objects.
+Prototype keeps track of classes.
+
+
+// the original Animal class and sayName method
+function Animal(name, numLegs) {
+    this.name = name;
+    this.numLegs = numLegs;
+}
+Animal.prototype.sayName = function() {
+    console.log("Hi my name is " + this.name);
+};
+
+// define a Penguin class
+function Penguin(name){
+    this.name = name;
+    this.numLegs = 2;
+};
+
+
+// set its prototype to be a new instance of Animal
+Penguin.prototype = new Animal();
+
+var penguin = new Penguin("Waddler");
+penguin.sayName()
+
+function Person(first,last,age) {
+   this.firstname = first;
+   this.lastname = last;
+   this.age = age;
+   var bankBalance = 7500; /*defining a var inside a class makes in private*/
+}
+
+var languages = {
+    english: "Hello!",
+    french: "Bonjour!",
+    notALanguage: 4,
+    spanish: "Hola!"
+};
+
+// print hello in the 3 different languages
+for(x in languages){
+if(typeof languages[x]=== "string"){
+console.log(languages[x]);
+}
+else{
+}
+}
