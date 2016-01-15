@@ -1,0 +1,24 @@
+var bike = prompt("Who is your favourite bike manufacturer?","lower case please...");
+switch (bike){
+    case'cannondale':
+        console.log("A solid choice there");
+        break;
+    case 'specialized':
+        console.log("My favourite too!");
+        break;
+    case 'trek':
+        console.log("Just because you want to be The Spartan");
+        break;
+    case 'cervelo':
+        console.log("You like to race...?");
+        break;
+    case 'giant':
+        console.log("A sportive rider..?");
+        break;
+    case 'bianchi':
+        console.log("Because style is everything!");
+        break;
+    default:
+        console.log("You might want to upgrade your ride!");
+        break;
+}
