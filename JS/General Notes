@@ -1,0 +1,30 @@
+JavaScript:
+//comment line
+confirm("x")
+prompt("x")
+console.log()
+
+
+if (condition) 
+{
+    // if condition is true
+    // do this code
+}
+else // "otherwise"
+{
+    // do this code instead
+}
+
+// declare your variable here:
+var myAge = 22;
+
+console.log(myAge);
+
+// Not sure where to begin? Check the Hint!
+var myFlat = 25
+if (myFlat % 5 > 0)
+{console.log("Try again")
+}
+else
+{console.log("I finished my first course!")
+}
