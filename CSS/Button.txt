@@ -1,0 +1,24 @@
+HTML FOR BUTTON:
+<div>
+		<a href="http://andreakihlstedt.com/wpsys/wp-content/uploads/2014/04/Say-Hello1.jpg">CLICK <span>ME</span></a>			
+		</div>
+CSS for button:
+div {
+    height:50px;
+    width:120px;
+    background-color:#BCD2EE;    
+    border: 2px solid #6495ED;
+    border-radius: 15px;
+    margin:auto;
+    text-align:center;
+}
+
+span{
+    color:#e67300;
+}
+
+a{
+    text-decoration:none;
+    color:#009900;
+    font-family: Arial
+}
