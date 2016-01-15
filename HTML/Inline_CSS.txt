@@ -1,0 +1,27 @@
+Inline CSS
+<h2 style="color: green; font-size:12px">
+
+	<p style="font-size:20px;color:blue;
+	font-family:Arial">A truly spectacular paragraph!</p>
+	
+
+	Changes the background color to brown and a list color to yellow
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sexy background color!</title>
+	</head>
+	<body style="background-color:brown">
+		<h3>Favorite Football Teams</h3>
+			<ol style="background-color:yellow">
+				<li>The Hawthorn Football Club</li>	
+				<li>San Franscisco 49ers</li>
+				<li>Barcelona FC</li>
+			</ol>			
+	</body>
+</html>
+
+Affecting certain words
+
+<p>Do you hear the people <strong>sing</strong>?</p>
+		<p>No I don't. I'm <strong>too</strong> busy eating cake.</p>
